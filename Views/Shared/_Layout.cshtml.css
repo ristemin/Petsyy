@@ -1,0 +1,87 @@
+﻿/* Navbar Brand */
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    font-size: 1.5rem; /* Increased font size for better visibility */
+    padding: 8px; /* Padding adjustment for better spacing */
+    color: #333; /* Changed text color for improved contrast */
+}
+
+/* Anchor Links */
+a {
+    color: #0077cc;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+    a:hover {
+        color: #0055a5; /* Darker color on hover for better visual feedback */
+    }
+
+/* Buttons and Active Links */
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transitions on button hover */
+}
+
+    .btn-primary:hover {
+        background-color: #0055a5; /* Darker background color on hover */
+        border-color: #004080; /* Darker border color on hover */
+    }
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transitions on active link hover */
+}
+
+    .nav-pills .nav-link.active:hover,
+    .nav-pills .show > .nav-link:hover {
+        background-color: #0055a5; /* Darker background color on hover */
+        border-color: #004080; /* Darker border color on hover */
+    }
+
+/* Borders and Box Shadow */
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+/* Accept Policy Button */
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+    color: #fff;
+    background-color: #28a745; /* Green button color */
+    border: none; /* Remove button border */
+    padding: 8px 16px; /* Adjust button padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+    button.accept-policy:hover {
+        background-color: #218838; /* Darker green on hover */
+    }
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    background-color: #f8f9fa; /* Lighter footer background color */
+    text-align: center; /* Center align footer text */
+    font-size: 0.8rem; /* Reduced font size */
+}
